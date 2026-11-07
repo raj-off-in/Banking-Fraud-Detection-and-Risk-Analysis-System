@@ -1,0 +1,50 @@
+
+# Python Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables and Secrets
+.env
+.env.*
+!.env.example
+
+# Dataset Files
+data/creditcard.csv
+
+# Trained Machine Learning Models
+*.pkl
+*.joblib
+*.h5
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# VS Code Settings
+.vscode/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Log Files
+*.log
+
+# Python Build Files
+build/
+dist/
+*.egg-info/
+
+# Streamlit Secrets
+.streamlit/secrets.toml
+
+.venv/
+__pycache__/
+.env
+data/creditcard.csv
